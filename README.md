@@ -12,7 +12,7 @@
   [![Version](https://img.shields.io/badge/Version-2.4.3-brightgreen)](#)
   [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey?logo=apple)](https://apps.apple.com)
 
-  > 🔒 Source code is private — available upon request for technical interviews.
+  > 🔒 Source code is private 
 
 </div>
 
@@ -75,7 +75,7 @@ FlexiDiet is a **third-generation AI nutrition coach** — a shipped, monetised 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  Flutter (iOS)                      │
+│             Flutter (iOS/Android)                   │
 │  Provider · Riverpod · GoRouter · fl_chart          │
 │  RevenueCat SDK · Firebase Auth · Firestore SDK     │
 └──────────────────────┬──────────────────────────────┘
