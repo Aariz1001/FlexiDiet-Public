@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  **AI-powered nutrition tracking & meal planning iOS app**
+  **AI-powered nutrition tracking & meal planning iOS & Android app**
 
   [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)](https://flutter.dev/)
   [![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)](https://firebase.google.com/)
@@ -20,7 +20,7 @@
 
 ## 📱 What is FlexiDiet?
 
-FlexiDiet is a **third-generation AI nutrition coach** — a shipped, monetised iOS app that replaces tedious calorie-counting with conversational AI, camera-based food recognition, and an audio coaching podcast generated entirely from your personal nutrition data.
+FlexiDiet is a **third-generation AI nutrition coach** — a shipped, monetised iOS & Android app that replaces tedious calorie-counting with conversational AI, camera-based food recognition, and an audio coaching podcast generated entirely from your personal nutrition data.
 
 | Generation | Examples | Experience |
 |---|---|---|
@@ -75,24 +75,24 @@ FlexiDiet is a **third-generation AI nutrition coach** — a shipped, monetised 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  Flutter (iOS)                       │
-│  Provider · Riverpod · GoRouter · fl_chart           │
-│  RevenueCat SDK · Firebase Auth · Firestore SDK      │
+│                  Flutter (iOS)                      │
+│  Provider · Riverpod · GoRouter · fl_chart          │
+│  RevenueCat SDK · Firebase Auth · Firestore SDK     │
 └──────────────────────┬──────────────────────────────┘
                        │ Firebase SDK / HTTPS callables
 ┌──────────────────────▼──────────────────────────────┐
-│          Firebase Cloud Functions (Python)           │
-│                                                      │
+│          Firebase Cloud Functions (Python)          │
+│                                                     │
 │  ai_chat.py          → LangChain + Gemini Flash     │
 │  meal_planning_ai.py → RAG + Firestore vector index │
 │  podcast_agents.py   → Multi-agent audio pipeline   │
 │  receipt_scanner.py  → Gemini Vision OCR            │
 │  reengagement.py     → Scheduled push notifications │
-│  nutrition.py        → Mifflin-St Jeor calculations  │
+│  nutrition.py        → Mifflin-St Jeor calculations │
 └──────────────────────┬──────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────┐
-│                Firebase Platform                      │
+│                Firebase Platform                    │
 │  Firestore (NoSQL)  ·  Firebase Auth                │
 │  Firebase Storage   ·  Cloud Messaging (FCM)        │
 │  Firebase Analytics ·  Firestore Vector Search      │
@@ -169,7 +169,6 @@ FlexiDiet ships with an internal AI benchmarking suite (`FlexiBench/`) used to e
 | 🌐 **Support** | [aariz1001.github.io/FlexiDiet/support](https://aariz1001.github.io/FlexiDiet-Portfolio/support/) |
 | 🔒 **Privacy Policy** | [aariz1001.github.io/FlexiDiet/privacy](https://aariz1001.github.io/FlexiDiet-Portfolio/privacy/) |
 | 📜 **Terms of Use** | [aariz1001.github.io/FlexiDiet/terms](https://aariz1001.github.io/FlexiDiet-Portfolio/terms/) |
-| 💼 **Private repo** | Available on request |
 
 ---
 
